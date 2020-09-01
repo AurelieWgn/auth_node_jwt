@@ -1,0 +1,327 @@
+@font-face {
+  font-family: 'PN_Soft_Bold';
+  src: url('./fonts/Proxima_Nova_Soft_W03_Bold/Proxima_Nova _Soft_W03_Bold.ttf');
+}
+
+@font-face {
+  font-family: 'PN_Soft_Regular';
+  src: url('./fonts/Proxima_Nova_Soft_W03_Regular/Proxima_Nova_Soft_W03_Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PN_Soft_It';
+  src: url('./fonts/Proxima_Soft_It/Proxima_Soft_It.ttf');
+}
+
+
+h1 {
+  text-align: center;
+}
+
+#nav{
+  width: 100%;
+  height: 40px;
+  background-color: #C88B7B;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 80px;
+  a{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+
+  &:hover{
+     transition: all 0.1s ease-in;
+     transform: scale(1.04);
+   }
+  }
+}
+
+a {
+  color: black;
+  height: 60px;
+}
+
+#root {
+  margin:0;
+}
+
+.trl-header {
+  background-color: #004b29;
+  display: inline-block;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+.trl-header li {
+  display: inline-block;
+  list-style: none;
+  width: 90%;
+}
+
+.trl-header a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', arial, sans-serif
+}
+
+.container {
+  text-align: center;
+}
+
+.logoLogin {
+  width: 17%;
+}
+
+.title2 {
+  font-size: 2.7em;
+}
+
+.form-trl {
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.form-trl input {
+  display: block;
+  width: 78%;
+  height: 35px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  min-height: 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: 'PN_Soft_Bold', sans-serif;
+  
+}
+
+.form-trl  .button-form {
+  width: 70%;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  line-height: 60px;
+  height: 60px;
+  margin-top: 38px;
+  display: block;
+  font-size: 1.7em;
+  font-family: 'PN_Soft_Bold', sans-serif;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.hollywood {
+  color: #82c077;
+}
+
+.sunset-blvd {
+  color: #a2bf35;
+}
+
+.bel-air {
+  color: #62b22f;
+}
+
+.beverly-hills {
+  color: #7dbd61;
+}
+
+.santa-monica {
+  color:#004b29;
+}
+
+.venice {
+  color: #007841;
+}
+
+.c-g {
+  color: #443f3f;
+}
+
+.bgc-bel-air {
+  background-color: #e6d5ce;
+}
+
+.bgc-santa-monica {
+  background-color: #C88B7B;
+}
+
+.bgc-sunset-blvd {
+  background-color: #a2bf35;
+}
+
+.log-container {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 3px;
+  color: white;
+}
+
+.log-link {
+  display: inline-block;
+  width: 50%;
+  padding: 0;
+}
+
+.log-container a {
+  text-decoration: none;
+  color: white;
+  font-family: 'PN_Soft_Bold', sans-serif;
+  font-size: 1.5em;
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.log-container form label {
+  font-family: 'PN_Soft_Regular', sans-serif;
+  display: block;
+  margin-left: 13%;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 1.2em
+}
+
+.log-nav-container {
+}
+
+.log-container-img {
+  display: inline-block;
+  width:50%;
+  vertical-align: top;
+}
+
+.log-container-form {
+  display: inline-block;
+  width:50%;
+  vertical-align: top;
+  padding-top: 50px;
+}
+
+.log-img {
+  max-width: 100%;
+}
+
+.register-img {
+  width: 68%;
+
+}
+
+.regoster-img.part1 {
+  width: 50.5%;
+}
+
+.register-title {
+  font-size: 1.4em;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.register-part1 {
+  display: inline-block;
+  width:37%;
+  vertical-align: top;
+}
+
+.register-part2 {
+  display: inline-block;
+  width:27%;
+  vertical-align: top;
+}
+
+.register-input-civ {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+.register-input-name {
+  display: inline-block;
+  width: 68%;
+  vertical-align: top;
+}
+
+.log-container .register-form {
+  width: 100%;
+}
+
+input.rgpd-inp {
+  display: inline-block;
+  width: 10%;
+}
+
+span.rgpd-span {
+  font-size: 0.7em;
+  display: inline-block;
+  line-height: 15px;
+  width: 80%;
+  text-align: left;
+}
+
+.rgpd-span a {
+  font-size: 0.9em;
+  display: inline;
+  text-decoration: underline;
+}
+
+.register-part1 .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.register-part1 .react-datepicker-wrapper input{
+  color: #004b29;
+}
+
+.register-img-part1 {
+  width: 51%;
+}
+
+.fgt-psw {
+    position: relative;
+    bottom: 90px;
+}
+
+.fgt-psw a {
+  font-size: 0.9em;
+}
+
+.genderChoice {
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  bottom: 20px;
+}
+
+.genderChoice ul {
+  padding: 0;
+}
+
+.genderChoice li {
+  color: black;
+  list-style: none;
+  text-align: center;
+  padding: 7px 7%;
+}
+
+.genderChoice li:hover {
+  background-color: #62b22f;
+}
